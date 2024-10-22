@@ -1,188 +1,166 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <meta content="width=device-width,initial-scale=1" name="viewport" />
-    <title>رزومه امیرحسین اردانی</title>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400&display=swap" rel="stylesheet" />
-    <link href=./style/style.css rel=stylesheet>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MortyVerse</title>
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <dialog id="dialog">
+      <h2>List of your favorite characters</h2>
+      <div class="main-dialog">
+        
+      </div>
+      <button onclick="window.dialog.close();" aria-label="close" class="x">
+        ❌
+      </button>
+    </dialog>
     <header>
-        <nav>
-            <ul>
-                <h2>رزومه امیرحسین اردانی</h2>
-                <li><a href="#about">درباره من</a></li>
-                <li><a href="#skills">مهارت‌ها</a></li>
-                <li><a href="#projects">پروژه‌ها</a></li>
-            </ul>
+      <div class="header-container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo.png" alt="MortyVerse Logo" />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#Character">Characters</a></li>
+            <li><a href="#">Episodes</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#favorites" onclick="window.dialog.showModal();">Favorites</a></li>
+          </ul>
         </nav>
+        <div class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </header>
-    <div class="hero"><h2>سلام، من امیرحسین هستم. علاقه‌مند و مشتاق به کدنویسی بهینه و حل مسئله و دوستدار کار با هوش مصنوعی و تکنولوژی‌های روز دنیا.</h2></div>
-    <section class="prodction" id="skills">
-        <h2>مهارت‌های فنی</h2>
-        <h3>زبان های برنام نویسی</h3>
-        <p>HTML CSS مقدماتی CSS پیشرفته JavaScript</p>
-        <h3>تکنولوژی ها</h3>
-        <p>Bootstrap Tailwind CSS SASS استفاده از پکیج منیجرها طراحی ریسپانسیو</p>
-        <h3>مهارت های جاوااسکریپت شامل</h3>
-        <p>API Fetch Axios CRUD Webpack Babel Promises OOP Callback Prototypes Local Storage Spread Operator</p>
-    </section>
-    <section class="projects" id="projects">
-        <h2>پروژه‌ها</h2>
-        <div class="project">
-            <h3>پروژه Rick and Morty</h3>
-            <p>تاریخ: 03/05/2023</p>
-            <p>توضیحات: دریافت اطلاعات از API، ایجاد باکس جستجو و لیست علاقه‌مندی‌ها.</p>
-            <p>تکنولوژی‌های مورد استفاده: JavaScript، CSS پیشرفته، HTML</p>
-            <!-- <a href="https://drive.google.com/file/d/1ezCPvICjbQ-6MaXfnWbAU4nu101uDeb9/view?usp=drive_link" class="project-link">مشاهده پروژه</a> -->
-             <a href="../Rick and Morty2/src/index.html">مشاهده پروژه</a>
+    
+      <div class="hero">
+        <div class="text">
+          <!-- <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div> -->
+          <div class="middle">
+            <h2>
+              Find out everything <br />
+              in one <span style="color: #11b0c8">place</span>.
+            </h2>
+            <p style="color: #44c765">wubba lubba dub dub!</p>
+          </div>
+          <div class="bottom">
+            <p>
+              Characters, locations, <br />
+              episodes and more.
+            </p>
+          </div>
         </div>
-        <div class="project">
-            <h3>پروژه Todo List</h3>
-            <p>تاریخ: 03/02/2020</p>
-            <p>توضیحات: استفاده از local storage، event listeners و arrow functions.</p>
-            <p>تکنولوژی‌های مورد استفاده: JavaScript، CSS پیشرفته، HTML</p>
-            <!-- <a href="https://drive.google.com/file/d/1pMJnYXg976Tneu6UhQ20_3DTjkivnQv9/view?usp=drive_link" class="project-link">مشاهده پروژه</a> -->
-            <a href="../todo-list/">مشاهده پروژه</a>
-
+        <div class="rick">
+          <img src="images/rick.png" alt="" />
         </div>
-        <div class="project">
-            <h3>پروژه Dashboard</h3>
-            <p>تاریخ: 03/04/2023</p>
-            <p>توضیحات: مشابه پروژه قبلی اما بهینه‌سازی شده.</p>
-            <p>تکنولوژی‌های مورد استفاده: JavaScript، CSS پیشرفته، HTML</p>
-            <!-- <a href="https://drive.google.com/file/d/1i5ZD5Fyd1roUbB2yL7g_hpZiXTEitzqU/view?usp=drive_link" class="project-link">مشاهده پروژه</a> -->
-             <a href="../Dashboard/src/index.html">مشاهده پروژه</a>
+      </div>
+      <div class="container" id="Character">
+        <h1>The Rick And Morty Docs</h1>
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Filter by name..."
+            id="searchbyname"
+          />
+          <select name="Species" id="Species">
+            <option class="placeholder-option" value="" disabled selected>
+              Species
+            </option>
+            <option value="Alien">Alien</option>
+            <option value="Human">Human</option>
+          </select>
+          <select name="Gender" id="Gender">
+            <option class="placeholder-option" value="" disabled selected>
+              Gender
+            </option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <select name="Status" id="Status">
+            <option class="placeholder-option" alue="" disabled selected>
+              Status
+            </option>
+            <option value="Alive">Alive</option>
+            <option value="Dead">Dead</option>
+          </select>
         </div>
-        <div class="project">
-            <h3>پروژه Tarkhineh</h3>
-            <p>تاریخ: 02/09/2023</p>
-            <p>توضیحات: استفاده از Tailwind CSS و دیگر تکنولوژی‌ها.</p>
-            <p>تکنولوژی‌های مورد استفاده: Tailwind CSS، HTML</p>
-            <!-- <a href="https://drive.google.com/file/d/17sgIjRav88-BoWKNjuZQS7q2OS4_ZNuC/view?usp=drive_link" class="project-link">مشاهده پروژه</a> -->
-             <a href="../Tarkhineh-Website-master/src/index.html">مشاهده پروژه</a>
-
+        <div class="card-list"></div>
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+              <img id="modal-image" src="" alt="Character Image" />
+              <div class="modal-text">
+                <div class="title">
+                  <h2 id="modal-name"></h2>
+                  <div class="heart"></div>
+                </div>
+                <p id="modal-species"></p>
+                <p id="modal-gender"></p>
+                <p id="modal-status"></p>
+                <p id="modal-location"></p>
+              </div>
+            </div>
+            <div class="modal-episodes">
+              <h3>List Of Episodes :</h3>
+            </div>
+          </div>
         </div>
-        <div class="project">
-            <h3>پروژه Aaaronn</h3>
-            <p>تاریخ: 02/03/2020</p>
-            <p>توضیحات: استفاده از Tailwind CSS؛ صفحه اصلی ریسپانسیو.</p>
-            <p>تکنولوژی‌های مورد استفاده: Tailwind CSS، HTML</p>
-            <a href="../AARONN-main/src/index.html">مشاهده پروژه</a>
-            <!-- <a href="https://drive.google.com/file/d/1y0-eiIcRUVq-pHTBJWJ_anUGp9Dx2xUL/view?usp=drive_link" class="project-link">مشاهده پروژه</a> -->
+        <div class="container-pagination">
+          <ul class="pagination">
+            <li><a id="previous">Previous</a></li>
+            <li><a class="num_of_page">1</a></li>
+            <li><a class="num_of_page">2</a></li>
+            <li><a class="num_of_page">3</a></li>
+            <li><a class="num_of_page">4</a></li>
+            <li><a class="num_of_page">5</a></li>
+            <li><a class="num_of_page">6</a></li>
+            <li><a class="num_of_page">7</a></li>
+            <li><a class="num_of_page">8</a></li>
+            <li><a id="next">Next</a></li>
+          </ul>
         </div>
-    </section>
-    <footer class="footer" id="footer">
-        <p>ایمیل: amirhoseinardani@gmail.com</p>
-        <p>تلفن: 09916843750</p>
+      </div>
+    </main>
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="logo">
+          <img src="images/logo.png" alt="MortyVerse Logo" />
+          <p>Your go-to place for all things Rick and Morty.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#Character">Characters</a>
+          <a href="#">Episodes</a>
+          <a href="#">Locations</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 MortyVerse. All rights reserved.</p>
+      </div>
     </footer>
-    <style>
-        body,
-nav ul,
-nav ul h2 {
-    margin: 0;
-    padding: 0;
-}َ
-header h1,
-nav ul li a {
-    color: #f1f1f1;
-    display: flex;
-}
-header,
-header h1,
-nav,
-nav ul,
-nav ul li a {
-    display: flex;
-}
-.hero,
-nav a:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-.hero,
-.project {
-    border-radius: 10px;
-}
-.footer,
-.hero,
-.projects,
-header h1 {
-    text-align: center;
-}
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: Vazirmatn, sans-serif;
-    direction: rtl;
-    background: #1d1c1c;
-    color: #fff;
-}
-header {
-    height: 100px;
-    background: rgba(0, 0, 0, 0.6);
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-}
-header h1 {
-    font-size: 40px;
-}
-nav {
-    top: 20px;
-    right: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-nav ul {
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    list-style: none;
-}
-nav ul li {
-    margin-left: 20px;
-}
-nav ul li a {
-    text-decoration: none;
-    transition: color 0.3s;
-    padding: 10px;
-    border-radius: 5px;
-}
-nav a:hover {
-    color: #00bcd4;
-}
-.prodction {
-    padding-right: 30px;
-}
-.footer,
-.hero,
-.project {
-    padding: 20px;
-}
-.hero {
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    margin: 20px;
-}
-.projects {
-    margin: 50px 0;
-}
-.project {
-    margin: 20px 0;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s;
-}
-.project:hover {
-    transform: translateY(-5px);
-}
-.project-link {
-    display: block;
-    color: #00bcd4;
-    margin: 5px 0;
-}
-.footer {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-    </style>
+    
+    <script
+      src="https://kit.fontawesome.com/a80a00ec6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
