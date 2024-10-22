@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>AARONN</title>
+  </head>
+
+  <body>
+    <main class="bg-black-100 w-full h-full">
+      <div class="hero">
+        <header
+          class="w-full px-[150px] py-[32px] max-sm:py-[20px] max-sm:px-[70px]"
+        >
+          <nav
+            class="w-full flex justify-between items-center font-rubik text-gray capitalize max-sm:hidden"
+          >
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><svg
+                    width="125"
+                    height="28"
+                    viewBox="0 0 125 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="71"
+                      cy="14"
+                      r="9"
+                      stroke="white"
+                      stroke-opacity="0.15"
+                      stroke-width="10"
+                    />
+                    <circle
+                      opacity="0.6"
+                      cx="71"
+                      cy="14"
+                      r="8"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M2.91009 25H0L8.41688 3H11.2822L19.6991 25H16.789L9.93908 6.48047H9.76L2.91009 25ZM3.98459 16.4063H15.7145V18.7695H3.98459V16.4063Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M24.2097 25H21.2996L29.7165 3H32.5818L40.9987 25H38.0886L31.2387 6.48047H31.0596L24.2097 25ZM25.2842 16.4063H37.0141V18.7695H25.2842V16.4063Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M44.5692 25V3H52.3145C54.1053 3 55.5753 3.29362 56.7244 3.88086C57.8735 4.46094 58.7242 5.25944 59.2763 6.27637C59.8285 7.29329 60.1046 8.44987 60.1046 9.74609C60.1046 11.0423 59.8285 12.1917 59.2763 13.1943C58.7242 14.1969 57.8773 14.9847 56.7356 15.5576C55.5939 16.1234 54.1352 16.4063 52.3593 16.4063H46.0914V14H52.2697C53.4935 14 54.4784 13.8281 55.2246 13.4844C55.9782 13.1406 56.5229 12.6536 56.8587 12.0234C57.202 11.3861 57.3736 10.627 57.3736 9.74609C57.3736 8.86523 57.202 8.09538 56.8587 7.43652C56.5155 6.77767 55.967 6.26921 55.2134 5.91113C54.4598 5.5459 53.4636 5.36328 52.225 5.36328H47.345V25H44.5692ZM55.3589 15.1172L61 25H57.7765L52.225 15.1172H55.3589Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M101.217 3V25H98.5246L86.0062 7.72656H85.7819V25H83V3H85.6921L98.2554 20.3164H98.4797V3H101.217Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M125 3V25H122.308L109.789 7.72656H109.565V25H106.783V3H109.475L122.039 20.3164H122.263V3H125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul
+              class="flex items-center justify-between w-[40%] h-fit font-rubik font-bold text-[14px]"
+            >
+              <li>
+                <a href="index.html" class="hover:text-orange">home</a>
+              </li>
+              <li>
+                <a href="./about.html" class="hover:text-orange">about me</a>
+              </li>
+              <li>
+                <a href="./mywork.html" class="hover:text-orange">my works</a>
+              </li>
+              <li
+                class="w-[138px] h-[48px] bg-black-200 rounded-[30px] border-2 border-solid border-gray flex items-center justify-center font-rubik font-extrabold text-[14px] text-withe hover:bg-gray"
+              >
+                <a href="./contact-me.html"> contact </a>
+              </li>
+            </ul>
+          </nav>
+          <nav
+            class="navbar-mobile sm:hidden text-withe flex justify-between flex-row-reverse max-sm:items-center max-sm:text-withe"
+          >
+            <a href="#" class="btn-hamburgery">
+              <svg
+                width="46"
+                height="46"
+                viewBox="0 0 46 46"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.7258 10.9447H7.22583C6.43193 10.9447 5.78833 11.5883 5.78833 12.3822C5.78833 13.1761 6.43193 13.8197 7.22583 13.8197H18.7258C19.5197 13.8197 20.1633 13.1761 20.1633 12.3822C20.1633 11.5883 19.5197 10.9447 18.7258 10.9447Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.8867 25.1088H7.22583C6.43193 25.1088 5.78833 24.4652 5.78833 23.6713C5.78833 22.8774 6.43193 22.2338 7.22583 22.2338H10.8867C11.5859 20.2758 13.5927 19.105 15.6413 19.4599C17.6899 19.8147 19.186 21.5922 19.186 23.6713C19.186 25.7504 17.6899 27.528 15.6413 27.8828C13.5927 28.2376 11.5859 27.0668 10.8867 25.1088ZM14.8925 25.0705C15.6652 25.0705 16.2917 24.4441 16.2917 23.6713C16.2917 22.8986 15.6652 22.2722 14.8925 22.2722C14.5214 22.2722 14.1655 22.4196 13.9031 22.682C13.6408 22.9444 13.4933 23.3003 13.4933 23.6713C13.4933 24.4441 14.1198 25.0705 14.8925 25.0705Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M29.6892 13.743C29.0345 15.2895 27.5347 16.3093 25.8558 16.3497V16.2155C23.6332 16.224 21.775 14.5276 21.5815 12.3135C21.388 10.0993 22.9238 8.10632 25.1142 7.72918C27.3046 7.35204 29.4185 8.71661 29.9767 10.868C30.0594 10.8572 30.1431 10.8572 30.2258 10.868H37.7967C38.5906 10.868 39.2342 11.5116 39.2342 12.3055C39.2342 13.0994 38.5906 13.743 37.7967 13.743H30.13C29.9836 13.7612 29.8355 13.7612 29.6892 13.743ZM27.262 11.9355C27.2281 11.1849 26.6072 10.5951 25.8558 10.5997V10.6763C25.4709 10.6807 25.1047 10.8435 24.8436 11.1264C24.5825 11.4093 24.4494 11.7873 24.4758 12.1713C24.5685 12.917 25.2336 13.4564 25.9823 13.393C26.731 13.3296 27.296 12.6862 27.262 11.9355Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M18.7258 34.1363H7.22583C6.41075 34.1363 5.75 34.7971 5.75 35.6122C5.75 36.4272 6.41075 37.088 7.22583 37.088H18.7258C19.5197 37.088 20.1633 36.4444 20.1633 35.6505C20.1633 34.8566 19.5197 34.213 18.7258 34.213V34.1363Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M30.475 34.1363H37.8925V34.213C38.6864 34.213 39.33 34.8566 39.33 35.6505C39.33 36.4444 38.6864 37.088 37.8925 37.088H30.2258C29.349 38.9518 27.2631 39.9199 25.2736 39.3865C23.2842 38.853 21.9625 36.9712 22.1357 34.9187C22.309 32.8663 23.9274 31.2326 25.9782 31.0402C28.0289 30.8478 29.923 32.1519 30.475 34.1363ZM25.0863 35.816C25.3089 36.3382 25.8249 36.6741 26.3925 36.6663C27.1578 36.6559 27.7726 36.0325 27.7725 35.2672C27.7725 34.6995 27.4295 34.1882 26.9043 33.9728C26.3791 33.7574 25.7758 33.8806 25.3772 34.2848C24.9786 34.6889 24.8636 35.2939 25.0863 35.816Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M37.8925 22.2338H22.5592C21.7653 22.2338 21.1217 22.8774 21.1217 23.6713C21.1217 24.4652 21.7653 25.1088 22.5592 25.1088H37.8925C38.6864 25.1088 39.33 24.4652 39.33 23.6713C39.33 22.8774 38.6864 22.2338 37.8925 22.2338Z"
+                  fill="currentColor"
+                /></svg
+            > </a>
+
+            <div class="hamburgey flex flex-col">
+              <ul
+                class="flex flex-col items-center justify-between w-full h-[100px] bg-red"
+              >
+                <li>
+                  <a href="#">
+                    <svg
+                      width="125"
+                      height="28"
+                      viewBox="0 0 125 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="71"
+                        cy="14"
+                        r="9"
+                        stroke="white"
+                        stroke-opacity="0.15"
+                        stroke-width="10"
+                      />
+                      <circle
+                        opacity="0.6"
+                        cx="71"
+                        cy="14"
+                        r="8"
+                        stroke="white"
+                        stroke-width="2"
+                      />
+                      <path
+                        d="M2.91009 25H0L8.41688 3H11.2822L19.6991 25H16.789L9.93908 6.48047H9.76L2.91009 25ZM3.98459 16.4063H15.7145V18.7695H3.98459V16.4063Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M24.2097 25H21.2996L29.7165 3H32.5818L40.9987 25H38.0886L31.2387 6.48047H31.0596L24.2097 25ZM25.2842 16.4063H37.0141V18.7695H25.2842V16.4063Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M44.5692 25V3H52.3145C54.1053 3 55.5753 3.29362 56.7244 3.88086C57.8735 4.46094 58.7242 5.25944 59.2763 6.27637C59.8285 7.29329 60.1046 8.44987 60.1046 9.74609C60.1046 11.0423 59.8285 12.1917 59.2763 13.1943C58.7242 14.1969 57.8773 14.9847 56.7356 15.5576C55.5939 16.1234 54.1352 16.4063 52.3593 16.4063H46.0914V14H52.2697C53.4935 14 54.4784 13.8281 55.2246 13.4844C55.9782 13.1406 56.5229 12.6536 56.8587 12.0234C57.202 11.3861 57.3736 10.627 57.3736 9.74609C57.3736 8.86523 57.202 8.09538 56.8587 7.43652C56.5155 6.77767 55.967 6.26921 55.2134 5.91113C54.4598 5.5459 53.4636 5.36328 52.225 5.36328H47.345V25H44.5692ZM55.3589 15.1172L61 25H57.7765L52.225 15.1172H55.3589Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M101.217 3V25H98.5246L86.0062 7.72656H85.7819V25H83V3H85.6921L98.2554 20.3164H98.4797V3H101.217Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M125 3V25H122.308L109.789 7.72656H109.565V25H106.783V3H109.475L122.039 20.3164H122.263V3H125Z"
+                        fill="white"
+                      /></svg
+                  ></a>
+                </li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+              </ul>
+            </div>
+          </nav>
+          <div
+            class="w-[100%] flex flex-col items-center justify-between mt-[200px] relative max-sm:mt-[100px]"
+          >
+            <div class="light absolute top-[-210px] right-[-150px]">
+              <svg
+                width="917"
+                height="651"
+                viewBox="0 0 917 651"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_101_462)">
+                  <path
+                    d="M485.187 449.805C580.282 443.548 642.347 408.446 702.715 326.776C825.011 161.329 110.485 108.772 209.995 290.534C272.738 405.139 363.72 457.796 485.187 449.805Z"
+                    fill="white"
+                    fill-opacity="0.18"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_101_462"
+                    x="0.454956"
+                    y="-23.6465"
+                    width="916.391"
+                    height="674.24"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="100"
+                      result="effect1_foregroundBlur_101_462"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <h1
+              class="font-Syne text-[72px] font-bold text-withe text-center max-sm:text-[45px]"
+            >
+              Adaptive Logo Design for Your Brand
+            </h1>
+            <button
+              class="w-[242px] h-[65px] bg-orange rounded-[30px] mt-[110px] max-sm:w-[170px] max-sm:h-[40px] max-sm:mt-[50px]"
+            >
+              <a
+                href="#"
+                class="font-rubik text-[13px] text-withe capitalize font-bold flex items-center justify-evenly"
+                >Explore works<svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 5.5H17"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 1L17 6L12 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </button>
+          </div>
+        </header>
+        <section
+          class="w-[100%] flex flex-wrap px-[150px] py-[32px] items-center justify-between mt-[210px] max-sm:mt-[60px]"
+        >
+          <div
+            class="description flex flex-col items-start justify-between w-[628px] h-[384px] relative max-sm:items-center"
+          >
+            <h2
+              class="font-Syne font-bold text-[56px] text-withe self-start max-sm:text-[2.5rem] max-sm:text-center max-sm:mt-[25px]"
+            >
+              Let’h2s get know about me closer
+            </h2>
+            <div class="light absolute top-[-250px] left-[-150px]">
+              <svg
+                width="486"
+                height="675"
+                viewBox="0 0 486 675"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_101_405)">
+                  <path
+                    d="M54.1869 473.805C149.282 467.548 211.347 432.446 271.716 350.776C394.011 185.329 -320.514 132.772 -221.004 314.534C-158.261 429.139 -67.2795 481.796 54.1869 473.805Z"
+                    fill="white"
+                    fill-opacity="0.18"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_101_405"
+                    x="-430.545"
+                    y="0.353516"
+                    width="916.391"
+                    height="674.24"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="100"
+                      result="effect1_foregroundBlur_101_405"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <p
+              class="font-rubik font-medium text-[18px] text-gray max-sm:text-center max-sm:text-[15px]"
+            >
+              Aaronn is a New York-based visual designer focusing on branding
+              and visual identity. Her portfolio showcases her wide range of
+              work, spanning books, posters and web design
+            </p>
+            <button
+              class="w-[288px] h-[59px] mt-[30px] bg-orange rounded-[47px] max-sm:w-[210px] max-sm:h-[40px] max-sm:mt-[40px]"
+            >
+              <a
+                href="#"
+                class="font-rubik text-[13px] text-withe capitalize font-bold flex items-center justify-evenly"
+                >Discover More About Me<svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 5.5H17"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 1L17 6L12 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </button>
+          </div>
+          <img src="../images/man-image.png" alt="" />
+        </section>
+        <section class="px-[150px] py-[32px] mt-[60px] max-sm:MT-[20PX]">
+          <div class="flex flex-col items-center justify-center">
+            <h2
+              class="font-Syne font-bold text-[64px] text-withe flex items-center max-sm:text-[3rem] max-sm:text-center"
+            >
+              My Projects Highlight
+            </h2>
+            <button
+              class="w-[242px] h-[65px] bg-tansparenc rounded-[30px] mt-[110px] border-solid border-2 border-orange max-sm:w-[210px] max-sm:h-[40px] max-sm:mt-[40px]"
+            >
+              <a
+                href="#"
+                class="font-rubik text-[13px] text-withe capitalize font-bold flex items-center justify-evenly"
+                >Explore works<svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 5.5H17"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 1L17 6L12 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </button>
+          </div>
+        </section>
+        <div
+          class="cards flex flex-wrap justify-between px-[150px] py-[79px] gap-y-16"
+        >
+          <div class="card flex flex-col justify-between">
+            <img
+              src="../images/my-project1.jpg"
+              class="rounded-[16px]"
+              alt=""
+            />
+            <div class="title flex justify-between items-center mt-10">
+              <h3 class="font-Syne font-bold text-[24px] text-withe">
+                Brand Journey Improvements
+              </h3>
+              <svg
+                width="48"
+                height="1"
+                viewBox="0 0 48 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line y1="0.5" x2="48" y2="0.5" stroke="#FF9142" />
+              </svg>
+            </div>
+            <br />
+            <div
+              class="colums font-rubik text-[14px] text-withe font-light w-[323px] h-[52px] flex flex-col justify-between"
+            >
+              <div class="row">
+                <span class="text-gray mr-10">Client:</span><span>Organc</span>
+              </div>
+              <div class="row">
+                <span class="text-gray mr-10">Work:</span
+                ><span class="mr-10">Branding</span> <span>Logo design</span>
+              </div>
+            </div>
+          </div>
+          <div class="card flex flex-col justify-between">
+            <img
+              src="../images/my-project2.jpg"
+              class="rounded-[16px]"
+              alt=""
+            />
+            <div class="title flex justify-between items-center mt-10">
+              <h3 class="font-Syne font-bold text-[24px] text-withe">
+                Brand Grouping
+              </h3>
+              <svg
+                width="48"
+                height="1"
+                viewBox="0 0 48 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line y1="0.5" x2="48" y2="0.5" stroke="#FF9142" />
+              </svg>
+            </div>
+            <br />
+            <div
+              class="colums font-rubik text-[14px] text-withe font-light w-[323px] h-[52px] flex flex-col justify-between"
+            >
+              <div class="row">
+                <span class="text-gray mr-10">Client:</span><span>FR</span>
+              </div>
+              <div class="row">
+                <span class="text-gray mr-10">Work:</span
+                ><span class="mr-10">Branding</span> <span>Logo design</span>
+              </div>
+            </div>
+          </div>
+          <div class="card flex flex-col justify-between">
+            <img
+              src="../images/my-project3.jpg"
+              class="rounded-[16px]"
+              alt=""
+            />
+            <div class="title flex justify-between items-center mt-10">
+              <h3 class="font-Syne font-bold text-[24px] text-withe">
+                NFT Glimps
+              </h3>
+              <svg
+                width="48"
+                height="1"
+                viewBox="0 0 48 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line y1="0.5" x2="48" y2="0.5" stroke="#FF9142" />
+              </svg>
+            </div>
+            <br />
+            <div
+              class="colums font-rubik text-[14px] text-withe font-light w-[323px] h-[52px] flex flex-col justify-between"
+            >
+              <div class="row">
+                <span class="text-gray mr-10">Client:</span><span>Rumanda</span>
+              </div>
+              <div class="row">
+                <span class="text-gray mr-10">Work:</span
+                ><span class="mr-10">NFT Design</span>
+              </div>
+            </div>
+          </div>
+          <div class="card flex flex-col justify-between">
+            <img
+              src="../images/my-project4.jpg"
+              class="rounded-[16px]"
+              alt=""
+            />
+            <div class="title flex justify-between items-center mt-10">
+              <h3 class="font-Syne font-bold text-[24px] text-withe">
+                Brand Suggestions
+              </h3>
+              <svg
+                width="48"
+                height="1"
+                viewBox="0 0 48 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line y1="0.5" x2="48" y2="0.5" stroke="#FF9142" />
+              </svg>
+            </div>
+            <br />
+            <div
+              class="colums font-rubik text-[14px] text-withe font-light w-[323px] h-[52px] flex flex-col justify-between"
+            >
+              <div class="row">
+                <span class="text-gray mr-10">Client:</span><span>T3d</span>
+              </div>
+              <div class="row">
+                <span class="text-gray mr-10">Work:</span
+                ><span class="mr-10">NFT logo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Description w-full px-[150px] mt-[150px] max-sm:px-[70px]">
+          <div class="row flex justify-between items-center">
+            <h1
+              class="font-Syne text-[64px] font-bold text-withe text-center max-sm:text-[2.5rem]"
+            >
+              Testimonial
+            </h1>
+            <div class="light absolute left-[-3px]">
+              <svg
+                width="486"
+                height="675"
+                viewBox="0 0 486 675"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_101_405)">
+                  <path
+                    d="M54.1869 473.805C149.282 467.548 211.347 432.446 271.716 350.776C394.011 185.329 -320.514 132.772 -221.004 314.534C-158.261 429.139 -67.2795 481.796 54.1869 473.805Z"
+                    fill="white"
+                    fill-opacity="0.18"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_101_405"
+                    x="-430.545"
+                    y="0.353516"
+                    width="916.391"
+                    height="674.24"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="100"
+                      result="effect1_foregroundBlur_101_405"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <svg
+              width="161"
+              height="93"
+              viewBox="0 0 161 93"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="path-1-outside-1_101_422"
+                maskUnits="userSpaceOnUse"
+                x="-1"
+                y="-1"
+                width="163"
+                height="95"
+                fill="black"
+              >
+                <rect fill="white" x="-1" y="-1" width="163" height="95" />
+                <path
+                  d="M96 0.231993L91.968 18.088C95.04 19.624 98.304 22.984 101.76 28.168C105.024 33.352 106.944 39.016 107.52 45.16L87.936 48.328V92.392H160.8V65.608C160.8 47.944 155.712 33.256 145.536 21.544C135.168 9.832 118.656 2.72799 96 0.231993ZM8.73599 0.231993L4.70399 18.088C7.776 19.624 11.04 22.984 14.496 28.168C17.76 33.352 19.68 39.016 20.256 45.16L0.671991 48.328V92.392H73.536V65.608C73.536 47.944 68.448 33.256 58.272 21.544C47.904 9.832 31.392 2.72799 8.73599 0.231993Z"
+                />
+              </mask>
+              <path
+                d="M96 0.231995L95.0246 0.0117302L95.2214 -0.85984L96.1095 -0.761993L96 0.231995ZM91.968 18.088L91.5208 18.9824L90.82 18.632L90.9926 17.8677L91.968 18.088ZM101.76 28.168L102.592 27.6133L102.599 27.6241L102.606 27.6352L101.76 28.168ZM107.52 45.16L108.516 45.0667L108.603 45.9978L107.68 46.1472L107.52 45.16ZM87.936 48.328H86.936V47.4768L87.7763 47.3408L87.936 48.328ZM87.936 92.392V93.392H86.936V92.392H87.936ZM160.8 92.392H161.8V93.392H160.8V92.392ZM145.536 21.544L146.285 20.8811L146.291 20.8881L145.536 21.544ZM8.73599 0.231995L7.76054 0.0117302L7.95735 -0.85984L8.8455 -0.761993L8.73599 0.231995ZM4.70399 18.088L4.25677 18.9824L3.55597 18.632L3.72855 17.8677L4.70399 18.088ZM14.496 28.168L15.328 27.6133L15.3353 27.6241L15.3422 27.6352L14.496 28.168ZM20.256 45.16L21.2516 45.0667L21.3389 45.9978L20.4157 46.1472L20.256 45.16ZM0.671997 48.328H-0.328003V47.4768L0.512299 47.3408L0.671997 48.328ZM0.671997 92.392V93.392H-0.328003V92.392H0.671997ZM73.536 92.392H74.536V93.392H73.536V92.392ZM58.272 21.544L59.0208 20.8811L59.0269 20.8881L58.272 21.544ZM96.9754 0.452255L92.9434 18.3083L90.9926 17.8677L95.0246 0.0117302L96.9754 0.452255ZM92.4152 17.1936C95.7237 18.8478 99.1066 22.3851 102.592 27.6133L100.928 28.7227C97.5014 23.5829 94.3563 20.4002 91.5208 18.9824L92.4152 17.1936ZM102.606 27.6352C105.954 32.9529 107.925 38.7677 108.516 45.0667L106.524 45.2533C105.963 39.2643 104.094 33.7511 100.914 28.7008L102.606 27.6352ZM107.68 46.1472L88.0957 49.3152L87.7763 47.3408L107.36 44.1728L107.68 46.1472ZM88.936 48.328V92.392H86.936V48.328H88.936ZM87.936 91.392H160.8V93.392H87.936V91.392ZM159.8 92.392V65.608H161.8V92.392H159.8ZM159.8 65.608C159.8 48.1495 154.777 33.7048 144.781 22.1999L146.291 20.8881C156.647 32.8072 161.8 47.7385 161.8 65.608H159.8ZM144.787 22.2068C134.645 10.7503 118.411 3.70704 95.8905 1.22598L96.1095 -0.761993C118.901 1.74895 135.691 8.91373 146.285 20.8812L144.787 22.2068ZM9.71143 0.452255L5.67943 18.3083L3.72855 17.8677L7.76054 0.0117302L9.71143 0.452255ZM5.1512 17.1936C8.45973 18.8478 11.8426 22.3851 15.328 27.6133L13.6639 28.7227C10.2374 23.5829 7.09227 20.4002 4.25677 18.9824L5.1512 17.1936ZM15.3422 27.6352C18.6904 32.9529 20.6611 38.7677 21.2516 45.0667L19.2604 45.2533C18.6989 39.2643 16.8295 33.7511 13.6497 28.7008L15.3422 27.6352ZM20.4157 46.1472L0.83168 49.3152L0.512299 47.3408L20.0963 44.1728L20.4157 46.1472ZM1.672 48.328V92.392H-0.328003V48.328H1.672ZM0.671997 91.392H73.536V93.392H0.671997V91.392ZM72.536 92.392V65.608H74.536V92.392H72.536ZM72.536 65.608C72.536 48.1495 67.5132 33.7048 57.5171 22.1999L59.0269 20.8881C69.3828 32.8072 74.536 47.7385 74.536 65.608H72.536ZM57.5232 22.2068C47.3813 10.7503 31.1469 3.70704 8.62648 1.22598L8.8455 -0.761993C31.6371 1.74895 48.4266 8.91373 59.0208 20.8812L57.5232 22.2068Z"
+                fill="#FF9142"
+                mask="url(#path-1-outside-1_101_422)"
+              />
+            </svg>
+          </div>
+          <br />
+          <br />
+          <div
+            class="Text font-rubik font-light text-[16px] text-gray absolute max-sm:text-[15px]"
+          >
+            <p>
+              “Aaronn was fantastic to work with from start to finish. We were
+              looking for a simple, stand-out logo and he delivered. I tried
+              designing the logo myself thinking I wouldn’t need to pay the
+              money for a professional graphic designer but I was very wrong.
+              Working with Aaronn was worth every penny and was surprisingly
+              affordable! I remember him saying simplicity is key to a
+              successful logo and boy he was right. I can’t thank Aaronn enough
+              for his effort and professionalism. I would recommend him to
+              anyone looking for a design!”
+            </p>
+            <br />
+            <span class="font-Syne font-bold text-[24px] max-sm:text-[18px]"
+              >-Martin lee</span
+            >
+          </div>
+        </div>
+      </div>
+      <footer
+        class="w-[100%] mt-[250px] h-[620px] items-start justify-between flex-col font-Syne font-bold bg-[#131313] px-[150px] max-sm:px-[70px] max-sm:h-[450px]"
+      >
+        <div
+          class="email w-full h-[280px] flex flex-col items-center justify-evenly max-sm:h-[130px]"
+        >
+          <h3 class="text-[24px] text-orange max-sm:text-[16px]">
+            Get in Touch With Us
+          </h3>
+          <span class="text-[64px] text-withe underline max-sm:text-[2.5rem]"
+            >info@aaronn.com</span
+          >
+        </div>
+        <div
+          class="colums flex justify-between w-full h-[160px] text-withe mt-[30px] text-[24px] items-center max-sm:text-[15px] max-sm:mt-[50px]"
+        >
+          <ul>
+            <svg
+              width="150"
+              height="50"
+              viewBox="0 0 234 55"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <ellipse
+                cx="132.635"
+                cy="27.208"
+                rx="16.7319"
+                ry="17.352"
+                stroke="white"
+                stroke-opacity="0.15"
+                stroke-width="19.28"
+              />
+              <path
+                opacity="0.6"
+                d="M147.439 27.208C147.439 35.7931 140.745 42.632 132.635 42.632C124.525 42.632 117.831 35.7931 117.831 27.208C117.831 18.6228 124.525 11.784 132.635 11.784C140.745 11.784 147.439 18.6228 147.439 27.208Z"
+                stroke="white"
+                stroke-width="3.856"
+              />
+              <path
+                d="M6.04942 48.416H0.639282L16.2871 6H21.614L37.2618 48.416H31.8516L19.117 12.7103H18.7841L6.04942 48.416ZM8.04701 31.8473H29.854V36.4037H8.04701V31.8473Z"
+                fill="white"
+              />
+              <path
+                d="M45.6475 48.416H40.2374L55.8851 6H61.2121L76.8598 48.416H71.4497L58.7151 12.7103H58.3821L45.6475 48.416ZM47.6451 31.8473H69.4521V36.4037H47.6451V31.8473Z"
+                fill="white"
+              />
+              <path
+                d="M83.4977 48.416V6H97.897C101.226 6 103.959 6.5661 106.095 7.6983C108.232 8.81669 109.813 10.3562 110.84 12.3168C111.866 14.2775 112.379 16.5073 112.379 19.0065C112.379 21.5056 111.866 23.7217 110.84 25.6547C109.813 27.5877 108.239 29.1065 106.116 30.2111C103.994 31.3019 101.282 31.8473 97.9802 31.8473H86.3276V27.208H97.8137C100.089 27.208 101.92 26.8766 103.307 26.2139C104.708 25.5511 105.721 24.6122 106.345 23.3972C106.983 22.1683 107.302 20.7048 107.302 19.0065C107.302 17.3082 106.983 15.8239 106.345 14.5536C105.707 13.2833 104.687 12.303 103.286 11.6127C101.885 10.9085 100.033 10.5564 97.7305 10.5564H88.6581V48.416H83.4977ZM103.557 29.3619L114.044 48.416H108.051L97.7305 29.3619H103.557Z"
+                fill="white"
+              />
+              <path
+                d="M188.811 6V48.416H183.806L160.533 15.1128H160.116V48.416H154.944V6H159.949L183.306 39.386H183.723V6H188.811Z"
+                fill="white"
+              />
+              <path
+                d="M233.026 6V48.416H228.021L204.749 15.1128H204.331V48.416H199.16V6H204.165L227.521 39.386H227.938V6H233.026Z"
+                fill="white"
+              />
+            </svg>
+          </ul>
+          <ul
+            class="h-[100px] w-fit flex flex-col justify-between font-Syne font-bold text-[24px] max-sm:text-[15px] max-sm:h-[70px]"
+          >
+            <li>Street Avenue 21, CA</li>
+            <li>
+              0-8-00-888- <br />
+              000
+            </li>
+          </ul>
+          <ul
+            class="h-[100px] w-fit flex flex-col justify-between font-Syne font-bold text-[24px] max-sm:text-[15px] max-sm:h-[70px]"
+          >
+            <li>+9 0283353</li>
+            <li>
+              <svg
+                width="94"
+                height="24"
+                viewBox="0 0 94 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24.52 0H1.7732C1.49898 0 1.236 0.105357 1.04209 0.292893C0.848191 0.48043 0.739258 0.734784 0.739258 1L0.739258 23C0.739258 23.2652 0.848191 23.5196 1.04209 23.7071C1.236 23.8946 1.49898 24 1.7732 24H13.9221V15H10.8202V11.25H13.9221V8.25C13.9221 5.15 15.9517 3.625 18.8105 3.625C20.1795 3.625 21.3571 3.724 21.6994 3.767V7.007L19.7173 7.008C18.1623 7.008 17.7993 7.723 17.7993 8.771V11.25H21.6766L20.9012 15H17.7993L17.8614 24H24.52C24.7942 24 25.0572 23.8946 25.2511 23.7071C25.445 23.5196 25.5539 23.2652 25.5539 23V1C25.5539 0.734784 25.445 0.48043 25.2511 0.292893C25.0572 0.105357 24.7942 0 24.52 0"
+                  fill="#C4C4C4"
+                />
+                <path
+                  d="M58.6796 0H35.8501C35.3011 0 34.8575 0.429 34.8575 0.96V23.04C34.8575 23.571 35.3011 24 35.8501 24H58.6796C59.2287 24 59.6722 23.571 59.6722 23.04V0.96C59.6722 0.429 59.2287 0 58.6796 0ZM53.9431 8.691C53.9524 8.832 53.9524 8.979 53.9524 9.123C53.9524 13.527 50.4846 18.6 44.1475 18.6C42.1934 18.6 40.3819 18.051 38.8558 17.106C39.135 17.136 39.4017 17.148 39.6871 17.148C41.3001 17.148 42.7827 16.62 43.9645 15.726C42.4508 15.696 41.1791 14.736 40.7448 13.416C41.2752 13.491 41.7529 13.491 42.2988 13.356C41.5194 13.2029 40.8189 12.7934 40.3162 12.1973C39.8135 11.6012 39.5397 10.8552 39.5413 10.086V10.044C39.9973 10.293 40.5339 10.446 41.0953 10.467C40.6234 10.1628 40.2363 9.75063 39.9685 9.26709C39.7006 8.78355 39.5603 8.24356 39.5599 7.695C39.5599 7.074 39.7274 6.507 40.0283 6.015C40.8934 7.04501 41.9729 7.88743 43.1967 8.4875C44.4205 9.08757 45.7611 9.43186 47.1315 9.498C46.6445 7.233 48.3939 5.4 50.497 5.4C51.4896 5.4 52.3829 5.802 53.0126 6.45C53.7911 6.309 54.5356 6.027 55.1994 5.649C54.9419 6.42 54.4022 7.071 53.6857 7.482C54.3805 7.41 55.0505 7.224 55.6708 6.963C55.2025 7.629 54.6162 8.22 53.9431 8.691V8.691Z"
+                  fill="#C4C4C4"
+                />
+                <path
+                  d="M81.3868 9.1425C80.8025 9.14271 80.2314 9.31048 79.7457 9.6246C79.26 9.93871 78.8815 10.3851 78.658 10.9072C78.4346 11.4294 78.3762 12.0039 78.4903 12.5581C78.6045 13.1124 78.8859 13.6214 79.2992 14.0209C79.7124 14.4205 80.2389 14.6925 80.8119 14.8027C81.385 14.9128 81.979 14.8562 82.5188 14.6399C83.0586 14.4236 83.52 14.0573 83.8446 13.5874C84.1692 13.1175 84.3424 12.5651 84.3424 12C84.3418 11.2421 84.0302 10.5155 83.476 9.97969C82.9219 9.4439 82.1704 9.14278 81.3868 9.1425V9.1425ZM88.2945 6.94607C88.1441 6.57742 87.917 6.24258 87.6272 5.96234C87.3375 5.6821 86.9913 5.46243 86.6101 5.31696C85.4469 4.87286 82.6774 4.9725 81.3868 4.9725C80.0962 4.9725 77.3295 4.86911 76.163 5.31696C75.7818 5.46243 75.4356 5.6821 75.1459 5.96234C74.8561 6.24258 74.629 6.57742 74.4786 6.94607C74.02 8.07107 74.1224 10.7523 74.1224 11.9995C74.1224 13.2466 74.02 15.9246 74.4808 17.0534C74.6312 17.422 74.8583 17.7569 75.1481 18.0371C75.4379 18.3174 75.7841 18.537 76.1652 18.6825C77.3284 19.1266 80.0979 19.027 81.389 19.027C82.6802 19.027 85.4458 19.1304 86.6123 18.6825C86.9935 18.537 87.3397 18.3174 87.6294 18.0371C87.9192 17.7569 88.1463 17.422 88.2967 17.0534C88.7592 15.9284 88.6529 13.2471 88.6529 12C88.6529 10.7529 88.7592 8.07536 88.2967 6.94661L88.2945 6.94607ZM81.3868 16.3929C80.4885 16.3929 79.6104 16.1352 78.8634 15.6525C78.1165 15.1698 77.5344 14.4838 77.1906 13.6811C76.8468 12.8784 76.7569 11.9951 76.9321 11.143C77.1074 10.2909 77.54 9.50813 78.1752 8.89378C78.8104 8.27943 79.6197 7.86105 80.5007 7.69155C81.3818 7.52205 82.295 7.60904 83.125 7.94153C83.9549 8.27401 84.6643 8.83706 85.1633 9.55946C85.6624 10.2819 85.9288 11.1312 85.9288 12C85.9295 12.5771 85.8125 13.1486 85.5845 13.6819C85.3565 14.2152 85.022 14.6997 84.6001 15.1078C84.1782 15.5158 83.6772 15.8394 83.1258 16.0599C82.5744 16.2804 81.9835 16.3936 81.3868 16.3929V16.3929ZM86.116 8.44821C85.9063 8.44832 85.7013 8.38827 85.5269 8.27567C85.3525 8.16307 85.2165 8.00297 85.1362 7.81562C85.0558 7.62827 85.0348 7.42208 85.0756 7.22315C85.1164 7.02421 85.2174 6.84146 85.3656 6.69801C85.5139 6.55456 85.7028 6.45685 85.9084 6.41724C86.1141 6.37763 86.3273 6.39791 86.521 6.4755C86.7148 6.55309 86.8804 6.68451 86.9969 6.85314C87.1134 7.02177 87.1756 7.22004 87.1756 7.42286C87.1762 7.55754 87.1493 7.69101 87.0964 7.81562C87.0436 7.94022 86.9658 8.0535 86.8675 8.14896C86.7693 8.24442 86.6525 8.32019 86.5239 8.37191C86.3954 8.42363 86.2575 8.45029 86.1182 8.45036L86.116 8.44821ZM91.1354 0H71.6382C70.9331 0 70.2568 0.270918 69.7582 0.753154C69.2596 1.23539 68.9795 1.88944 68.9795 2.57143V21.4286C68.9795 22.1106 69.2596 22.7646 69.7582 23.2468C70.2568 23.7291 70.9331 24 71.6382 24H91.1354C91.8406 24 92.5168 23.7291 93.0154 23.2468C93.514 22.7646 93.7942 22.1106 93.7942 21.4286V2.57143C93.7942 1.88944 93.514 1.23539 93.0154 0.753154C92.5168 0.270918 91.8406 0 91.1354 0V0ZM90.1872 15.5357C90.1157 16.9088 89.7917 18.1254 88.7553 19.125C87.719 20.1246 86.4622 20.4445 85.0442 20.5098C83.5814 20.5896 79.1956 20.5896 77.7328 20.5098C76.3131 20.4407 75.0596 20.1268 74.0216 19.125C72.9836 18.1232 72.6574 16.9061 72.5898 15.5357C72.5073 14.1204 72.5073 9.87804 72.5898 8.46429C72.6613 7.09125 72.9814 5.87464 74.0216 4.875C75.0619 3.87536 76.3187 3.55929 77.7328 3.49393C79.1956 3.41411 83.5814 3.41411 85.0442 3.49393C86.4639 3.56304 87.7212 3.87696 88.7553 4.87875C89.7895 5.88054 90.1196 7.09768 90.1872 8.47071C90.2697 9.88071 90.2697 14.1193 90.1872 15.5357Z"
+                  fill="#C4C4C4"
+                />
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="line flex flex-col items-center mt-[60px]">
+          <svg
+            width="1106"
+            height="1"
+            viewBox="0 0 1106 1"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="0.85376"
+              y1="0.5"
+              x2="1105.74"
+              y2="0.5"
+              stroke="#949494"
+            />
+          </svg>
+          <br />
+          <br />
+          <span
+            class="font-Syne font-bold text-[24px] text-withe max-sm:text-[18px]"
+            >© 2023. Ideapeel. All rights reserved.
+          </span>
+        </div>
+      </footer>
+    </main>
+    <script src="./javaScript/app.js"></script>
+  </body>
+</html>
