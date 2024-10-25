@@ -12,6 +12,9 @@
     <nav>
       <ul>
         <h2>رزومه امیرحسین اردانی</h2>
+
+      </ul>
+      <ul>
         <li><a href="#about">درباره من</a></li>
         <li><a href="#skills">مهارت‌ها</a></li>
         <li><a href="#projects">پروژه‌ها</a></li>
@@ -134,6 +137,8 @@
       color: #fff;
     }
     header {
+      width: 100%;
+      display: flex;
       height: 100px;
       background: rgba(0, 0, 0, 0.6);
       justify-content: space-between;
@@ -144,25 +149,35 @@
       font-size: 40px;
     }
     nav {
+      width: 100%;
       top: 20px;
       right: 20px;
+      display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
     }
     nav ul {
+      width: 50%;
+      display: flex;
       align-items: center;
       justify-content: space-between;
       width: 100%;
       list-style: none;
+      margin-right: 50px;
     }
-    nav ul li {
-      margin-left: 20px;
+    nav ul:nth-child(2){
+      display: flex;
+      justify-content: center;
     }
     nav ul li a {
+      width: 150px;
       text-decoration: none;
       transition: color 0.3s;
       padding: 10px;
       border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     nav a:hover {
       color: #00bcd4;
